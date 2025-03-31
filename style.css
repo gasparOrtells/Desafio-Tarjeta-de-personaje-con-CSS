@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(108, 177, 233);
+}
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /*utilize la sombra numero 10*/
+    border-radius: 10px;
+
+    
+}
+.card img {
+    margin: 20px auto; 
+    width: 70%; 
+    height: 50%; 
+}
+.card .text {
+    padding: 20px;
+    width: 80%; 
+}
+.card .text h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #2600ff;
+}
+
+ul, li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
